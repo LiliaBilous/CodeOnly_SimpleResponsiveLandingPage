@@ -24,7 +24,7 @@ function documentActions(e) {
         e.preventDefault();
     }
     //Works filter
-    if(targetElement.classList.contains('.items-works__type') && !targetElement.classList.contains('active')) {
+    if(targetElement.classList.contains('items-works__type') && !targetElement.classList.contains('active')) {
         const activeElement = document.querySelector(`.items-works__type.active`);
         const elements = document.querySelectorAll(`.items-works__item`);
         const elementType = targetElement.dataset.workType;
